@@ -22,7 +22,7 @@ setTimeout(async () => {
 	});
     
 	backBtn.addEventListener('click', async () => {
-		window.location.href = 'signIn.html';
+		window.location.href = './signIn.html';
 	});
 
 

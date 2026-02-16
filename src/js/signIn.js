@@ -19,15 +19,15 @@ setTimeout(async () => {
 	};
 
 	signUpBtn.addEventListener('click', async () => {
-		window.location.href = 'signUp.html';
+		window.location.href = '/src/html/signUp.html';
 	});
 
 	forgotBtn.addEventListener('click', async () => {
-		window.location.href = 'resetPwd.html';
+		window.location.href = '/src/html/resetPwd.html';
 	});
 
 	backBtn.addEventListener('click', async () => {
-		window.location.href = '/';
+		window.location.href = '/index.html';
 	});
 
 	loginBtn.addEventListener('click', async () => {
@@ -39,7 +39,7 @@ setTimeout(async () => {
             email: data.userEmail,
             password: data.password
         });
-		
+
 		if (signInError) {
 			alert(`Failed to sign in: ${signInError.message}`);
 			if (overlayDiv) overlayDiv.style.display = "none";

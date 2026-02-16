@@ -92,11 +92,11 @@ setTimeout(async () => {
             alert(`The verification link has been sent to ${signUpInputData.userEmail}, please check. `);
         }
 
-        window.location.href = 'signIn.html';
+        window.location.href = './signIn.html';
 	});
     
 	backBtn.addEventListener('click', async () => {
-		window.location.href = 'signIn.html';
+		window.location.href = './signIn.html';
 	});
 
 
