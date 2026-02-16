@@ -27,7 +27,7 @@ setTimeout(async () => {
 	});
 
 	backBtn.addEventListener('click', async () => {
-		window.location.href = '/';
+		window.location.href = '../../index.html';
 	});
 
 	loginBtn.addEventListener('click', async () => {
@@ -55,4 +55,5 @@ setTimeout(async () => {
 
 
 }, 0);
+
 
