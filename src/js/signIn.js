@@ -39,9 +39,7 @@ setTimeout(async () => {
             email: data.userEmail,
             password: data.password
         });
-
-        console.log({ signInData, signInError });
-
+		
 		if (signInError) {
 			alert(`Failed to sign in: ${signInError.message}`);
 			if (overlayDiv) overlayDiv.style.display = "none";
