@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="../css/signUp.css">
+        <title>Test-static-site</title>
+    </head>
+    <body>
+        <div id="signUp">
+            <div class="signUp-card">
+                <h2> Sign Up </h2>
+                <div class="signUp-form-group">
+                    <label>Email*</label>
+                    <input type="text" id="user-email" autocomplete="off">
+                    <label id="user-email-blank" class="input-warning">
+                        Cannot be blank.
+                    </label>
+                </div>
+                <div class="signUp-form-group">
+                    <label>Password*</label>
+                    <input type="password" id="new-password" placeholder="••••••••">
+                    <label id="new-password-blank" class="input-warning">
+                        Cannot be blank.
+                    </label>
+                </div>
+                <div class="signUp-form-group">
+                    <label>Confirm Password*</label>
+                    <input type="password" id="confirm-password" placeholder="••••••••">
+                    <label id="confirm-password-blank" class="input-warning">
+                        Cannot be blank.
+                    </label>
+                    <label id="password-different" class="input-warning">
+                        Passwords do not match.
+                    </label>
+                </div>
+                <div class="signUp-form-group">
+                    <label>First Name*</label>
+                    <input type="text" id="user-first-name" autocomplete="off">
+                    <label id="user-first-name-blank" class="input-warning">
+                        Cannot be blank.
+                    </label>
+                </div>
+                <div class="signUp-form-group">
+                    <label>Middle Initial</label>
+                    <input type="text" id="user-middle-initial" autocomplete="off">
+                </div>
+                <div class="signUp-form-group">
+                    <label>Last Name*</label>
+                    <input type="text" id="user-last-name" autocomplete="off">
+                    <label id="user-last-name-blank" class="input-warning">
+                        Cannot be blank.
+                    </label>
+                </div>
+                <div class="signUp-form-group">
+                    <label>University/Institution*</label>
+                    <input type="text" id="user-institution" autocomplete="off">
+                    <label id="user-institution-blank" class="input-warning">
+                        Cannot be blank.
+                    </label>
+                </div>
+                <div class="signUp-form-group">
+                    <label>Group leader</label>
+                    <input type="text" id="user-leader" autocomplete="off">
+                </div>
+                <div class="signUp-form-group">
+                    <label>Country/Region*</label>
+                    <input type="text" id="user-country" autocomplete="off">
+                    <label id="user-country-blank" class="input-warning">
+                        Cannot be blank.
+                    </label>
+                </div>
+                <div class="signUp-form-group">
+                    <label>Purpose*</label>
+                    <input type="text" id="user-purpose" autocomplete="off" placeholder="Brief description">
+                    <label id="user-purpose-blank" class="input-warning">
+                        Cannot be blank.
+                    </label>
+                </div>
+                <div class="signUp-button-group">
+                    <button id="registerBtn">Create an account</button>
+                </div>
+                <div class="signUp-back">
+                    <a id="backBtn">Back to sign in -></a>
+                </div>
+            </div>
+        </div>
+        <div id="overlay">
+            <div class="spinner"></div>
+            <div>Processing, please wait...</div>
+        </div>
+        <script type="module" src="../js/signUp.js"></script>
+    </body>
+</html>

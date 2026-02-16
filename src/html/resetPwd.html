@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="../css/resetPwd.css">
+        <title>Test-static-site</title>
+    </head>
+    <body>
+        <div id="resetPwd">
+            <div class="resetPwd-card">
+                <h2> Reset your password </h2>
+                <div class="resetPwd-form-group">
+                    <label>Account email</label>
+                    <input type="text" id="user-email" autocomplete="off">
+                    <label id="user-email-blank" class="input-warning">
+                        Cannot be blank.
+                    </label>
+                </div>
+                <div class="resetPwd-button-group">
+                    <button id="resetBtn">Send password reset email</button>
+
+                </div>
+                <div class="resetPwd-back">
+                    <a id="backBtn">Back to sign in -></a>
+                </div>
+            </div>
+        </div>
+        <div id="overlay">
+            <div class="spinner"></div>
+            <div>Processing, please wait...</div>
+        </div>
+        <script type="module" src="../js/resetPwd.js"></script>
+    </body>
+</html>
+
+
+
