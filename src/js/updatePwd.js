@@ -1,5 +1,5 @@
 
-import { createClient } from '@supabase/supabase-js'
+import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm'
 const supabase = createClient(
     'https://ujjwkhrkkjgoghrxzktx.supabase.co', 
     'sb_publishable_JppNdvfoHD6jNjHviNo82Q_AsFGeFtb'
@@ -83,4 +83,5 @@ setTimeout(async () => {
 
 
 }, 0);
+
 
