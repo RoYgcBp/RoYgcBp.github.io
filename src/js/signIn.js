@@ -1,5 +1,5 @@
 
-import { createClient } from '@supabase/supabase-js'
+import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm'
 const supabase = createClient(
   'https://ujjwkhrkkjgoghrxzktx.supabase.co', 
   'sb_publishable_JppNdvfoHD6jNjHviNo82Q_AsFGeFtb'
@@ -19,15 +19,15 @@ setTimeout(async () => {
 	};
 
 	signUpBtn.addEventListener('click', async () => {
-		window.location.href = '/src/html/signUp.html';
+		window.location.href = './signUp.html';
 	});
 
 	forgotBtn.addEventListener('click', async () => {
-		window.location.href = '/src/html/resetPwd.html';
+		window.location.href = './resetPwd.html';
 	});
 
 	backBtn.addEventListener('click', async () => {
-		window.location.href = '/index.html';
+		window.location.href = '/';
 	});
 
 	loginBtn.addEventListener('click', async () => {
