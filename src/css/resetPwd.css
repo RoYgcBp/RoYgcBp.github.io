@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+#resetPwd {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.resetPwd-card {
+    background: rgba(255,255,255,0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 40px 36px;
+    width: 100%;
+    max-width: 420px;
+    border: 1px solid rgba(255,255,255,0.6);
+    transition: transform 0.2s ease;
+}
+
+.resetPwd-card h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #0b2b3c;
+    margin-bottom: 28px;
+    letter-spacing: -0.01em;
+    padding-left: 16px;
+}
+
+.resetPwd-form-group {
+    margin-bottom: 22px;
+}
+
+.resetPwd-form-group {
+    margin-bottom: 22px;
+}
+
+.resetPwd-form-group label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1e4a5f;
+    margin-bottom: 6px;
+    letter-spacing: 0.3px;
+}
+
+.resetPwd-form-group a {
+    color: #2a6f8b;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.resetPwd-form-group a:hover {
+    color: #0e4457;
+    border-bottom-color: #0e4457;
+}
+
+.resetPwd-form-group input {
+    width: 100%;
+    padding: 14px 18px;
+    font-size: 16px;
+    background: white;
+    border: 1.5px solid #dae6ed;
+    outline: none;
+    transition: all 0.2s;
+    color: #0a2c38;
+    font-weight: 450;
+}
+
+.resetPwd-form-group input:focus {
+    border-color: #2d7a9b;
+    box-shadow: 0 0 0 4px rgba(45,122,155,0.08);
+    background: white;
+}
+
+.resetPwd-form-group input::placeholder {
+    color: #9bb7c4;
+    font-weight: 350;
+    font-size: 15px;
+}
+
+.resetPwd-button-group {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.resetPwd-button-group button {
+    flex: 1;
+    padding: 14px 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.15s;
+    background: white;
+    color: #1c5b73;
+    border: 1.5px solid #b8d3df;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.01);
+}
+
+#resetBtn {
+    background: #1c5b73;
+    color: white;
+    border: none;
+    border: 1.5px solid #1c5b73;
+}
+
+#resetBtn:hover {
+    background: #134654;
+    border-color: #134654;
+    box-shadow: 0 8px 14px -8px #0e3a47;
+}
+
+.resetPwd-back label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1e4a5f;
+    margin-bottom: 6px;
+    letter-spacing: 0.3px;
+}
+
+.resetPwd-back a {
+    color: #2a6f8b;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.resetPwd-back a:hover {
+    color: #0e4457;
+    border-bottom-color: #0e4457;
+}
+
+@media (max-width: 480px) {
+    .resetPwd-card {
+        padding: 32px 24px;
+        border-radius: 28px;
+    }
+}
